@@ -8,7 +8,7 @@ version="3_0_4"
 script = <<SCRIPT
 
 apt-get update -y
-apt-get install -y git autotools-dev libgdbm-dev libpcap-dev libsqlite3-dev dpkg-dev debhelper quilt libcurl4-openssl-dev libiodbc2-dev libjson-c-dev libjson0-dev libkrb5-dev libldap2-dev libpam0g-dev libperl-dev libmysqlclient-dev libpq-dev libreadline-dev libsasl2-dev libtalloc-dev libyubikey-dev python-dev
+apt-get install -y git ssl-cert autotools-dev libgdbm-dev libpcap-dev libsqlite3-dev dpkg-dev debhelper quilt libcurl4-openssl-dev libiodbc2-dev libjson-c-dev libjson0-dev libkrb5-dev libldap2-dev libpam0g-dev libperl-dev libmysqlclient-dev libpq-dev libreadline-dev libsasl2-dev libtalloc-dev libyubikey-dev python-dev
 
 mkdir freeradius
 cd freeradius
